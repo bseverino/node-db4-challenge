@@ -1,0 +1,29 @@
+{
+  "name": "node-db4-challenge",
+  "version": "1.0.0",
+  "description": "Data modeling exercise",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bseverino/node-db4-challenge.git"
+  },
+  "author": "Bianca Severino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bseverino/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/bseverino/node-db4-challenge#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "pg": "^7.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
